@@ -12,6 +12,6 @@ export const changeAge = age => ({
   age
 })
 
-export const changeForm = () => ({
+export const initializeForm = () => ({
   type: INITIALIZE_FORM
 })

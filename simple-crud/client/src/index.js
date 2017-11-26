@@ -16,6 +16,6 @@ const render = () => {
 
 store.subscribe(() => {
   render()
-  console.log(store.getState().form)
+  //console.log(store.getState().form)
 })
 render()
