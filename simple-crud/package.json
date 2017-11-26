@@ -2,9 +2,9 @@
   "name": "simple-crud",
   "version": "1.0.0",
   "description": "- React+Redux+Express+MongoDBでものすごくシンプルなCRUDアプリをつくる https://qiita.com/hoture/items/573247b12ff0bc4e5d3c - https://github.com/tofuq/simple-crud",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "babel-node server.js"
   },
   "keywords": [],
   "author": "",
