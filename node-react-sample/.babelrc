@@ -1,0 +1,19 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "node": "9.2.0",
+          "browsers": [
+            "last 2 versions"
+          ]
+        }
+      }
+    ],
+    "react"
+  ],
+  "plugins": [
+    "transform-class-properties", "transform-object-rest-spread"
+  ]
+}
